@@ -87,5 +87,21 @@ body {
       font-size: 22px;
     }
   }
+.conference-text {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.conference-text p {
+  font-size: 20px;   /* increase this value */
+  line-height: 1.6;
+}
+
+.conference-text p strong {
+  font-size: 24px;   /* main line bigger */
+}
+
   
+
   
