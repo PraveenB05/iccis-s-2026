@@ -97,8 +97,24 @@ body {
   font-size: 28px;
   font-weight: 600;
 }
+.title-countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title-box {
+  min-width: 140px;
+}
+
+.title-text {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+}
 
   
 
   
+
 
