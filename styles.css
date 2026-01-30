@@ -87,21 +87,18 @@ body {
       font-size: 22px;
     }
   }
-.conference-text {
-  text-align: center;
+.hero-text {
   color: #fff;
-  margin-top: 20px;
+  font-size: 22px;
+  line-height: 1.7;
 }
 
-.conference-text p {
-  font-size: 20px;   /* increase this value */
-  line-height: 1.6;
-}
-
-.conference-text p strong {
-  font-size: 24px;   /* main line bigger */
+.hero-text .conf-title {
+  font-size: 28px;
+  font-weight: 600;
 }
 
   
 
   
+
