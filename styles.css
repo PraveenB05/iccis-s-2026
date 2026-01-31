@@ -130,10 +130,47 @@ body {
   font-size: 16px;
   line-height: 1.8;
 }
+.social-icons-circle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.icon-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #0d47a1; /* dark blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Active (LinkedIn style) */
+.icon-circle.active {
+  background: #fff;
+  color: #0d47a1;
+}
+
+/* Hover effect */
+.icon-circle:hover {
+  transform: scale(1.15);
+}
+@media (max-width: 768px) {
+  .social-icons-circle {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
 
   
 
   
+
 
 
 
