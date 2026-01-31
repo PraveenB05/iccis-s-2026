@@ -156,28 +156,29 @@ body {
   color: #0d47a1;
 }
 
-/* Hover effect */
-.icon-circle:hover {
-  transform: scale(1.15);
-}
-@media (max-width: 768px) {
-  .social-icons-circle {
-    justify-content: center;
-    margin-top: 20px;
-  }
-}
-.social-icons-circle {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 15px;
+.social-icons a {
+  color: #0d6efd; /* blue */
+  font-size: 30px;
+  margin-left: 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
+.social-icons a:hover {
+  color: #198754; /* green on hover */
+  transform: scale(1.2);
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+
+  
 
   
 
-  
 
 
 
