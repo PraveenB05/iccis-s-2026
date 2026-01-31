@@ -166,10 +166,18 @@ body {
     margin-top: 20px;
   }
 }
+.social-icons-circle {
+  display: flex;
+  flex-direction: row;   /* THIS is the key */
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
 
   
 
   
+
 
 
 
