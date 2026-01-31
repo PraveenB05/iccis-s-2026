@@ -169,6 +169,8 @@ body {
 }
 @media (max-width: 768px) {
   .social-icons-circle {
+      display:flex;
+      align-items:row;
     justify-content: center;
     margin-top: 20px;
   }
@@ -180,6 +182,7 @@ body {
   
 
   
+
 
 
 
