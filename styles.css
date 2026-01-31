@@ -155,7 +155,6 @@ body {
   background: #fff;
   color: #0d47a1;
 }
-
 .social-icons a {
   color: #0d6efd; /* blue */
   font-size: 30px;
@@ -167,21 +166,29 @@ body {
   color: #198754; /* green on hover */
   transform: scale(1.2);
 }
-@media (max-width: 768px) {
-  .social-icons-circle {
-      display:flex;
-      align-items:row;
-    justify-content: center;
-    margin-top: 20px;
-  }
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #f1f1f1;
 }
 
 
 
 
+
   
 
   
+
 
 
 
