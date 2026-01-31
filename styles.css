@@ -167,16 +167,18 @@ body {
   }
 }
 .social-icons-circle {
-  display: flex;
-  flex-direction: row;   /* THIS is the key */
+  display: flex !important;
+  flex-direction: row !important;
   justify-content: flex-end;
   align-items: center;
   gap: 15px;
 }
 
+
   
 
   
+
 
 
 
